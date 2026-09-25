@@ -34,7 +34,7 @@ Ver el detalle completo en [`docs/ARQUITECTURA.md`](docs/ARQUITECTURA.md).
 ## 4. Instalación
 
 ```bash
-git clone URL_DEL_REPOSITORIO
+git clone https://github.com/patobalboa/chatbot-bd
 cd chatbot-whatsapp-postgresql
 npm install
 ```
