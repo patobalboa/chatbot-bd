@@ -1,0 +1,28 @@
+{
+  "name": "chatbot-whatsapp-postgresql",
+  "version": "1.0.0",
+  "description": "Chatbot educativo de WhatsApp con Node.js y PostgreSQL para la asignatura Administración de Bases de Datos",
+  "main": "src/bot.js",
+  "scripts": {
+    "start": "node src/bot.js",
+    "dev": "node src/bot.js",
+    "db:test": "node -e \"require('./src/database').testConnection().then(() => process.exit(0)).catch(() => process.exit(1))\""
+  },
+  "keywords": [
+    "postgresql",
+    "whatsapp",
+    "educativo",
+    "bases-de-datos"
+  ],
+  "author": "",
+  "license": "MIT",
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "whatsapp-web.js": "^1.26.0",
+    "pg": "^8.12.0",
+    "dotenv": "^16.4.5",
+    "qrcode-terminal": "^0.12.0"
+  }
+}
